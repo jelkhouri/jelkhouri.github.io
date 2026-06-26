@@ -1,7 +1,7 @@
 title: Jonah Elkhouri
 email: jonahelkhouri@email.com
 description: "UVA EE | Low-power IoT | Data Insight"
-url: "https://yourusername.github.io"
+url: "https://jelkhouri.github.io"
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"  # options: default, air, aqua, contrast, dark, dirt, neon, mint, sunrise
@@ -16,6 +16,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 
 author:
   name: "Jonah"
@@ -41,6 +47,12 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true
