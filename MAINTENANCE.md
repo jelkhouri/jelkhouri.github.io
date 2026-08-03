@@ -10,8 +10,6 @@ Portfolio site for Jonah Elkhouri, built with [Jekyll](https://jekyllrb.com/) us
 These are gaps in the current content that should be filled in:
 
 - [ ] `about.md` — front matter only, no bio text written yet.
-- [ ] `resume.md` — front matter only, empty. Decide on format: write resume content directly in
-      Markdown, or embed/link a PDF (e.g. drop it in `assets/files/resume.pdf` and link to it).
 - [ ] `_posts/2026-06-23-prediction-markets-project.md` — still has placeholder text
       ("Write about the project here...", "..."). Needs a real write-up.
 - [ ] `_projects/kalshi-trends.md` — still has placeholder text ("Write your full project
@@ -91,14 +89,11 @@ GitHub Actions tab (Pages won't update) rather than erroring in your face.
 
 ## 7. Updating the resume
 
-Since `resume.md` is currently empty, decide once and document the choice here:
-- **Markdown-in-page** — easiest to keep in sync with the site's styling, but means retyping
-  changes instead of just re-exporting a PDF.
-- **PDF embed/link** — put the PDF under `assets/files/`, link/embed it from `resume.md`; faster
-  to update by just swapping the file, but styling won't match the site theme.
+`resume.md` embeds a PDF from `assets/documents/resume.pdf` (download button + inline `<embed>`
+viewer). To update, just overwrite `assets/documents/resume.pdf` with the new export, keeping the
+filename — no changes to `resume.md` needed.
 
-Whichever you pick, review/update at least once per semester or after any internship, project,
-or award worth adding.
+Review/update at least once per semester or after any internship, project, or award worth adding.
 
 ## 8. Routine maintenance checklist
 
