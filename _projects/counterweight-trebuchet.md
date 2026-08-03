@@ -12,8 +12,7 @@ header:
 A few friends of mine asked, and were asked, this question while we built this medieval
 trebuchet, which was capable of launching a 15 lb. projectile around 270 ft.
 
-![Counterweight trebuchet](/assets/images/counterweight-trebuchet.png)
-
+![Counterweight trebuchet](/assets/images/counterweight-trebuchet-2.png)
 ## Background
 
 The trebuchet is a large artillery weapon which traces its origins to 12th century Europe. It was
@@ -34,6 +33,7 @@ CAD design of the trebuchet and utilized Fusion 360 to obtain dimensions for the
 The frame features two triangular supports, and a track for the projectile. The most notable
 feature of the frame is the use of 3 boards to create the vertical supports, which allowed the
 arm's axle to rest atop the supports for easy removal.
+![Counterweight trebuchet](/assets/images/counterweight-trebuchet.png)
 
 Additionally, I designed the counterweight jockey to be compatible with Olympic fitness weights.
 This allowed for easy and accurate testing with different counterweight values.
