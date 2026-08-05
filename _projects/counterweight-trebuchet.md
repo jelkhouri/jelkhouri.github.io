@@ -3,8 +3,6 @@ title: "Counterweight Trebuchet"
 date: 2026-08-03
 excerpt: "Designing and building a medieval counterweight trebuchet capable of launching a 15 lb. projectile roughly 270 ft."
 tags: [mechanical-design, fusion-360, cad]
-header:
-  image: /assets/images/counterweight-trebuchet.png
 ---
 
 *"Why would anyone build a trebuchet?"*
@@ -40,7 +38,9 @@ This allowed for easy and accurate testing with different counterweight values.
 
 ## Build and Testing
 
-{% include video id="C--DmOoJnsA" provider="youtube" %}
+<div class="responsive-video-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/C--DmOoJnsA?start=48" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 ## Conclusion
 

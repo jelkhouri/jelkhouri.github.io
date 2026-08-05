@@ -1,6 +1,6 @@
 title: Jonah Elkhouri
 email: jonahelkhouri@gmail.com
-description: "UVA EE | Low-power IoT | Data Insight"
+description: "UVA EE"
 url: "https://jelkhouri.github.io"
 
 theme: minimal-mistakes-jekyll
@@ -24,9 +24,9 @@ collections:
 
 
 author:
-  name: "Jonah"
-  bio: "EE student | Low-power IoT | Python & data analysis"
-  location: "Virginia"
+  name: "Jonah Elkhouri"
+  bio: "Electrical Engineering | Low-power Systems | Data-driven Insight"
+  location: "University of Virginia"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
