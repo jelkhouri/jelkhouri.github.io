@@ -1,7 +1,8 @@
 ---
-title: "Counterweight Trebuchet"
+title: "Counterweight Trebuchet Build"
 date: 2026-08-03
-excerpt: "Designing and building a medieval counterweight trebuchet capable of launching a 15 lb. projectile roughly 270 ft."
+excerpt: "Building a medieval siege weapon"
+thumbnail: "/assets/images/counterweight-trebuchet.png"
 tags: [mechanical-design, fusion-360, cad]
 ---
 

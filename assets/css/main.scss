@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.project-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__thumbnail {
+    flex: 0 0 auto;
+    display: block;
+    width: 180px;
+    height: 170px;
+    border-radius: 4px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin: 0;
+      box-shadow: none;
+    }
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0.25em;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: 0.85em;
+    }
+  }
+
+  @include breakpoint($small) {
+    &__thumbnail {
+      width: 130px;
+      height: 145px;
+    }
+  }
+}

@@ -1,7 +1,8 @@
 ---
-title: "Google Trends & Kalshi Correlation Study"
+title: "Exploring Relationships Between Google Searches and Electoral Futures Markets"
 date: 2026-06-26
-excerpt: "Analyzing the correlation between Google Trends search data and Kalshi prediction market prices for Florida political candidates."
+excerpt: "Coming Soon"
+# thumbnail: "/assets/images/kalshi-trends.png"  # add an image and uncomment to set a thumbnail
 tags: [python, data, prediction-markets]
 ---
 
